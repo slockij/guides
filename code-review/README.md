@@ -23,6 +23,13 @@ Everyone
 * Talk synchronously (e.g. chat, screensharing, in person) if there are too many 
   "I didn't understand" or "Alternative solution:" comments. Post a follow-up 
   comment summarizing the discussion.
+* use prefixes for your comments to indicate what it is:
+    * [req] - requested change. Reviewer believes it should be changed
+    * [nth] - nice to have. Reviewer suggests something better/more thorough/common pattern etc.
+    * [pp]  - personal preference of a reviewer. This is show own opinion on style/unification etc. Might influence the author to apply some changes, but does not provide any benefits (it's not for optimization/better interfaces etc.)
+    * [q] - question. Reviewer would like to get some explanation on topic.
+    * [fixed] - Author fixed/changed based on the comment
+    * [wont-fix] - Author declines the request. It should be first discussed with reviewer and explained in comment.
 
 Having Your Code Reviewed
 -------------------------
